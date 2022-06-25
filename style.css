@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-size: 12px;
+}
+
+b {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 200px auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+    z-index: 100;
+    box-shadow: 0px 1px 10px #888888;
+}
+
+/* header h1 {
+    box-shadow: 5px 10px 8px #888888;
+} */
+
+nav {
+    grid-row: span 2;
+    height: 100vh;
+    background-color: rgb(65, 129, 225);
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: auto 250px;
+    grid-template-rows: auto auto;
+    background-color: rgb(195, 208, 214);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 150px 150px 150px;
+    gap: 1rem;
+}
+
+.project {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-left: 4px solid orange;
+    padding: 10px;
+    box-shadow: 0px 4px 8px #888888;
+}
+
+.announcements-grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px #888888;
+}
+
+.trending-grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px #888888;
+}
